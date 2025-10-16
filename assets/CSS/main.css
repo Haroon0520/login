@@ -1,11 +1,10 @@
-.container{
-    margin-left: 8%;
+.container-fluid{
     font-family: "Open Sans", sans-serif;
 }
-.container .fa{
+.fa{
     position: absolute;
     color: gray;
-    margin-left: -35px;
+    margin-left: -29px;
     padding-top: 13px;
 }
 
@@ -14,7 +13,6 @@
     color: #222327;
     display: flex;
     margin: 10px 0;
-    width: 70%;
 }
 .line-separator {
     background-color: #F1F1F1;
@@ -26,10 +24,9 @@
     text-align: center;
 }
 p{
-    margin-left: 50px;
+    margin-right: 25%;
 }
 .anchor{
-    margin-left: 110px;
     text-decoration: none;
     color: #000;
 }
@@ -39,28 +36,34 @@ p{
     margin-left: 6px;
 }
 .btn{
-    width: 70%;
     background-color: white !important;
     border-color: #CFCFCF;
 }
-.email, .pass{
-    width: 70%;
-}
-#form{
-    margin-left: 100px;
+.form{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 h1,h5{
-    margin-left: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #log{
     background-color: #1AEBB6 !important;
     padding: 12px;
     border-color: white !important;
 }
-#log a{
-    text-decoration: none;
-    color: #000;
-}
 #google{
     margin-right: 12px;
+}
+
+@media (max-width: 767.98px) {  
+     body {  
+       padding: 10px;
+ }
+ }
+  
+@media (min-width: 992px) {
+     #form {
+     max-width: 570px;
+}
 }
